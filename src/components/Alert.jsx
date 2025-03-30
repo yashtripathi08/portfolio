@@ -21,4 +21,5 @@ const Alert = ({ type, text }) => {
   };
   
   export default Alert;
+
   
