@@ -15,5 +15,5 @@ export {
     tesla,
     UpskillCampus,
     logo,
-    NPTEL,
+    NPTEL, 
 }

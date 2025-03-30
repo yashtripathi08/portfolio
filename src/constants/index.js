@@ -12,6 +12,7 @@ import {
     html,
     javascript,
     linkedin,
+  
     mongodb,
     motion,
     mui,
@@ -172,7 +173,7 @@ export const courses = [
         title: "Software Engineering",
         company_name: "NPTEL",
         icon: NPTEL,
-        iconBg: "#f7f779",
+        iconBg: "#00ff87",
         date: "November 2024",
         points: [
             "Developing and maintaining web applications using Mern and other related technologies.",
@@ -180,6 +181,7 @@ export const courses = [
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
+        
     },
     {
         title: "Compiler Design",
@@ -237,13 +239,13 @@ export const projects = [
         description: 'Developed an interactive 3D portfolio website using React.js and Three.js, featuring dynamic animations, responsive design, and immersive 3D elements to professionally showcase skills and projects. This project demonstrates expertise in modern web development and creative design.',
         link: 'https://github.com/yashtripathi08/portfolio',
     },
-    // {
-    //     iconUrl: snapgram,
-    //     theme: 'btn-back-pink',
-    //     name: 'Full Stack Instagram Clone',
-    //     description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    //     link: 'https://github.com/adrianhajdin/social_media_app',
-    // },
+    {
+        iconUrl: UpskillCampus,
+        theme: 'btn-back-pink',
+        name: 'E-commerce Application ',
+        description: 'I Developed a full-stack e-commerce application during my time as an intern at "Upskill Campus" using React.js, Node.js, and MongoDB. The application features user authentication, product listings, shopping cart functionality, and payment integration.',
+        link: 'https://github.com/yashtripathi08/upskillcampus',
+    },
     // {
     //     iconUrl: estate,
     //     theme: 'btn-back-black',
