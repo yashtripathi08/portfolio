@@ -11,6 +11,9 @@ import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
 import redux from './redux.svg'
+import Hattori from './Hattori.svg'
+import AvalancheRush from './AvalancheRush.svg'
+import favicon from './favicon.ico'
 import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
@@ -43,6 +46,7 @@ export {
     redux,
     sass,
     tailwindcss,
+    AvalancheRush,
     typescript,
     linkedin,
     twitter,
@@ -55,5 +59,7 @@ export {
     arrow,
     contact,
     soundon,
+    Hattori,
+    favicon,
     soundoff
 }
