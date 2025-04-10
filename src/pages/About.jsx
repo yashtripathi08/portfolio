@@ -61,13 +61,13 @@ const About = () => {
               <VerticalTimelineElement
                 key={experience.company_name}
                 date={experience.date}
-                iconStyle={{ background: experience.iconBg }}
+                iconStyle={{ background: experience.iconBg}}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
                     <img
                       src={experience.icon}
                       alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
+                      className='w-[80%] h-[80%] object-contain'
                     />
                   </div>
                 }
@@ -126,7 +126,7 @@ const About = () => {
                     <img
                       src={courses.icon}
                       alt={courses.company_name}
-                      className='w-[60%] h-[60%] object-contain'
+                      className='w-[80%] h-[80%] object-contain'
                     />
                   </div>
                 }

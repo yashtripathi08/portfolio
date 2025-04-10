@@ -6,6 +6,7 @@ import tesla from './tesla.png'
 import UpskillCampus from './UpskillCampus.png'
 import logo from './logo.svg'
 import NPTEL from './NPTEL.png'
+import Amazon from './Amazon.png'
 
 export {
     hero,
@@ -15,5 +16,6 @@ export {
     tesla,
     UpskillCampus,
     logo,
+    Amazon,
     NPTEL, 
 }

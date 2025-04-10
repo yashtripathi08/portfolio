@@ -1,4 +1,4 @@
-import { meta, shopify, UpskillCampus, NPTEL} from "../assets/images";
+import { meta, shopify, UpskillCampus,Amazon, NPTEL} from "../assets/images";
 import {
     car,
     contact,
@@ -170,10 +170,36 @@ export const experiences = [
 ];
 export const courses = [
     {
+        title: "Full Stack Web Development",
+        company_name: "Amazon",
+        icon: Amazon,
+        iconBg: "#fff95b",
+        date: "April 2025",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Data Structures and Algorithms",
+        company_name: "Amazon",
+        icon: Amazon,
+        iconBg: "#c5f9d7",
+        date: "April 2025",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
         title: "Software Engineering",
         company_name: "NPTEL",
         icon: NPTEL,
-        iconBg: "#00ff87",
+        iconBg: "#fbe9d7",
         date: "November 2024",
         points: [
             "Developing and maintaining web applications using Mern and other related technologies.",
@@ -187,7 +213,7 @@ export const courses = [
         title: "Compiler Design",
         company_name: "NPTEL",
         icon: NPTEL,
-        iconBg: "#1dbde6",
+        iconBg: "#c6f8ff",
         date: "may 2025",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
@@ -196,6 +222,7 @@ export const courses = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
+  
     
 ];
 
