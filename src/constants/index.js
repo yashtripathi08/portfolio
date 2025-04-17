@@ -170,6 +170,19 @@ export const experiences = [
 ];
 export const courses = [
     {
+        title: "Advanced React",
+        company_name: "META",
+        icon: meta,
+        iconBg: "#a2d2ff",
+        date: "April 2025",
+        points: [
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
         title: "Full Stack Web Development",
         company_name: "Amazon",
         icon: Amazon,
